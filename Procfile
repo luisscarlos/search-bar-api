@@ -1,0 +1,1 @@
+web: java -jar target/search-bar-api-*.jar
