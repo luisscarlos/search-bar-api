@@ -12,7 +12,7 @@ import dev.stringsearch.cleverti.data.SearchStringData;
 import dev.stringsearch.cleverti.service.SearchStringService;
 
 @RestController
-@RequestMapping("/stations")
+@RequestMapping()
 public class SearchStringController {
 	
 	@Autowired
