@@ -1,1 +1,1 @@
-web: java -jar target/search-bar-api-*.jar
+web:  java $JAVA_OPTS -Dserver.port=$PORT -jar target/*.jar
